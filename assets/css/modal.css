@@ -69,7 +69,7 @@ dialog button {
     width: 50px;
     margin-bottom: .8rem;
     border: none;
-    border-radius: 20px;
+    border-radius: 1rem;
     color: #660708;
     background-color: #ffccd5;
     cursor: pointer;

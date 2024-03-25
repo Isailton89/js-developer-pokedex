@@ -1,0 +1,76 @@
+dialog {
+    border : none;
+    border-radius: 1rem;
+    width: 222px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+}
+
+.poke-detalhe-nome {
+    width: 100%;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .8rem;
+}
+
+dialog div span{
+    text-transform: capitalize;
+}
+
+.img-poke{
+    width: 120px;
+}
+
+.informacoes-card {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.base-poke {
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.base-poke h2 {
+    font-weight: 350;
+    font-size: 14px;
+    padding-top: 1rem;
+    border-bottom: #6C7ADC 1px solid;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.status-nome {
+    font-size: 12px;
+    color: #A1A5AB;
+    text-transform: capitalize;
+}
+
+.status-ponto div {
+    font-size: 12px;
+    padding: .1rem 1rem;
+}
+
+.status-nome div {
+    margin-bottom: .2rem;
+}
+
+dialog button {
+    width: 50px;
+    margin-bottom: .8rem;
+    border: none;
+    border-radius: 20px;
+    color: #660708;
+    background-color: #ffccd5;
+    cursor: pointer;
+}
